@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Talk</title>
+    <title>Chats - Kokoa Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,74 +23,69 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
         <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i> Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://ww.namu.la/s/a25ef7e00e5009b7d99416f845b0781cc815a93c6061c5d0d6e07e1dcb8e8c38ff10ae546227a101ab01db22d83e5be987a277728f57b6361d336ab6e1749208c09a6498692dbfdede25b6fb2a7b8fd5eed58fac1f4e19db352371428db8ac768f855f82320439abe1dc8370300b4860"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Harry</h4>
-            <!--
-            <h6 class="user-component__subtitle">this text whatever</h6>
-          --></div>
-        </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
+    <main class="main-screen">
+      <a href="chat-hermione.html">
         <div class="user-component">
           <div class="user-component__column">
             <img
-              src="https://ww.namu.la/s/a25ef7e00e5009b7d99416f845b0781cc815a93c6061c5d0d6e07e1dcb8e8c38ff10ae546227a101ab01db22d83e5be987a277728f57b6361d336ab6e1749208c09a6498692dbfdede25b6fb2a7b8fd5eed58fac1f4e19db352371428db8ac768f855f82320439abe1dc8370300b4860"
-              class="user-component__avatar user-component__avatar--sm"
+              src="https://w.namu.la/s/ea0c0b04eb136a71ea4356829c9dd629b1867956174232f8dc6c58fabb9af4dac97b7a5852b5c1c8ad882f10d1593fdf0f92714d54ea3cca6cf333d64a78fccf17424bd96b3f4cb82cc0f6c17c22f35e289a38eea611c7261eb6a5e3796141ab2c44ebbed247bac80c91a925c16fe92b"
+              class="user-component__avatar user-component__avatar"
             />
             <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                Channel
-              </h4>
-              <!--
-              <h6 class="user-component__subtitle">this text whatever</h6>
-            --></div>
-          </div>
-          <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right fa-xs"></i>
+              <h4 class="user-component__title">Hermione</h4>
+              <h6 class="user-component__subtitle">
+                Please check My Kokoa Account Info
+              </h6>
             </div>
           </div>
+          <div class="user-component__column">
+            <span class="user-component__time">13:17</span>
+            <div class="badge">1</div>
+          </div>
         </div>
-      </div>
+      </a>
+      <a href="chat-ron.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://w.namu.la/s/36b75f2218f00857ff900304bd8d3845c3e930452be5895b54ea3dcd9b331f9ee4b994e108c4db6d18c320e71d2480d92ee3a725a0f93eee1b64ea3567cff7a500e4b89a0ba975c781fe0416eed5f8e15ea1b6ae99c456537242fd9a50c0864d123653706273d9fdca8131102d022dde"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Ron</h4>
+              <h6 class="user-component__subtitle">
+                Please check My Kokoa Account Info
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">13:17</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
     </main>
 
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="fas fa-user fa-2x"></i
-          ></a>
+            ><i class="far fa-user fa-2x"></i>
+          </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="far fa-comment fa-2x"></i>
+            <i class="fas fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
