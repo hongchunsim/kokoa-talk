@@ -27,10 +27,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 50px;
+  font-size: 5px;
   color: tomato;
   font-weight: 600;
   position: absolute;
-  left: 20px;
+  left: 50px;
   bottom: 15px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 2s linear infinite;
 }

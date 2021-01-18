@@ -1,4 +1,7 @@
+/*
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap");
 
 @import "reset.css";
 @import "variables.css";
@@ -11,6 +14,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -21,8 +25,18 @@
 @import "screens/chat.css";
 
 body {
-  color: #2e363e;
+  color: black;
+  background-color: var(--grey);
+  /*
   font-family: "Open Sans", sans-serif;
+  */
+  font-family: "Roboto Slab", serif;
+}
+
+body:after {
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
 }
 
 .main-screen {
